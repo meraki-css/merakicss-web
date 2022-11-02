@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MerakiCSS</title>
 	<link href="meraki.css" rel="stylesheet" type="text/css">
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="user.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
 		rel="stylesheet">
 </head>
@@ -18,7 +18,7 @@
 	<nav class="wayfinder">
 
 		<div class="wayfinder-logo">
-            <img class="logo-img" src="logo.png" alt="">
+			<img class="logo-img" src="logo.png" alt="">
 		</div>
 
 		<div class="catalog-container">
@@ -32,9 +32,11 @@
 					<a class="way-link" href="#documentation">Documentation</a>
 				</li>
 
+
 				<li class="way-item">
 					<a class="way-link" href="#start">Start Here</a>
 				</li>
+
 
 			</ul>
 		</div>
@@ -51,6 +53,7 @@
 
 	</nav>
 
+	
 
 
 	<div class="billboard-container">
@@ -64,7 +67,7 @@
 					<div>
 						<div class="btn-1">
 							<!-- make button section -->
-							<a class="button-body-homepg-1" href="#start">Get Started</a>
+							<a class="button-body-homepg-1" href="#getting-started">Get Started</a>
 						</div>
 
 						<div class="btn-2">
@@ -81,7 +84,7 @@
 
 	<hr>
 
-    <div id="start"></div>
+	<div id="start"></div>
 	<!-- getting started page -->
 	<div id="getting-started"></div>
 	<div class="grid get-started-grid">
@@ -96,6 +99,25 @@
 
 
 		</div>
+
+		<div class="row">
+			<div class="section s-6">
+				<div class="row">
+					<div class="section s-12 comp-container">
+						<div class="content-box component-txt">
+							<p>This video will introduce you to Meraki and explain how to set up your text editor. This is a vital step to creating your website. After you have set up your text editor as the video outlines, copy and paste the starter template into your index.html file.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section s-6 vid-container">
+				<div class="content-box">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/7S6phIRYLYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+
+
 		<div class="row">
 			<div class="section s-12 intro-container">
 				<div class="content-box">
@@ -114,23 +136,32 @@
 					<figure class="comp-code">
 						<pre><code class="code-html" data-lang="html">
 <span class="tag">&lt!DOCTYPE </span><span class="class">html</span><span class="tag">&gt</span>
-  <span class="tag">&lthtml&gt</span>
+ <span class="tag">&lthtml&gt</span>
     <span class="tag">&lthead&gt</span>
       <span class="comments">&lt!--- Required meta tags ---&gt</span>
-      <span class="tag">&ltmeta</span><span class="class"> name=</span><span class="class-name">"viewport"</span><span class="class"> content=</span><span class="class-name">"width=device-width"</span><span class="tag">&gt</span>
-      <span class="tag">&ltmeta</span><span class="class"> name=</span><span class="class-name">"viewport"</span><span class="class"> content=</span><span class="class-name">"width=device-width, initial-scale=1, shrink-to-fit=no"</span><span class="tag">&gt</span>
+      <span class="tag">&ltmeta</span><span class="class"> name=</span><span
+									class="class-name">"viewport"</span><span class="class"> content=</span><span
+									class="class-name">"width=device-width"</span><span class="tag">&gt</span>
+      <span class="tag">&ltmeta</span><span class="class"> name=</span><span
+									class="class-name">"viewport"</span><span class="class"> content=</span><span
+									class="class-name">"width=device-width, initial-scale=1, shrink-to-fit=no"</span><span
+									class="tag">&gt</span>
 
       <span class="comments">&lt!--- Meraki CSS ---&gt</span>
+      <span class="tag">&ltlink </span><span class="class">href=</span><span class="class-name">"style.css"</span><span class="class">rel=</span><span class="class-name">"stylesheet" </span><span class="class">type=</span><span class="class-name">"text/style"</span><span class="tag">&gt</span><span class="tag">&lt/link&gt</span>
 
-      <span class="tag">&lttitle&gt</span><span class="text">Hello World!</span><span class="tag">&lt/title&gt</span>
+      <span class="tag">&lttitle&gt</span><span class="text">Hello World!</span><span
+									class="tag">&lt/title&gt</span>
 
     <span class="tag">&lt/head&gt</span>
 
     <span class="tag">&ltbody&gt</span>
       <span class="comments">&lt!--- Javascript ---&gt</span>
-
+      <span class="tag">&ltscript</span><span class="class"> src=</span><span class="class-name">"https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"</span><span class="tag">&gt</span><span class="tag">&lt/script&gt</span>
+      <span class="tag">&ltscript</span><span class="class"> src=</span><span class="class-name">"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"</span><span class="tag">&gt</span><span class="tag">&lt/script&gt</span>
+      <span class="tag">&ltscript</span><span class="class"> src=</span><span class="class-name">"app.js"</span><span class="tag">&gt</span><span class="tag">&lt/script&gt</span>
     <span class="tag">&lt/body&gt</span>
-  <span class="tag">&lt/html&gt</span>
+<span class="tag">&lt/html&gt</span>
 							</code></pre>
 					</figure>
 				</div>
@@ -156,7 +187,7 @@
 
 				<figure class="comp-code">
 					<pre><code class="code-html" data-lang="html">
-<span class="tag">&ltlink </span><span class="class">href=</span><span class="class-name">"style.css"</span><span class="class">rel=</span><span class="class-name">"stylesheet" </span><span class="class">type=</span><span class="class-name">"text/style"</span><span class="tag">&gt</span>
+<span class="tag">&ltlink </span><span class="class">href=</span><span class="class-name">"style.css"</span><span class="class">rel=</span><span class="class-name">"stylesheet" </span><span class="class">type=</span><span class="class-name">"text/style"</span><span class="tag">&gt</span><span class="tag">&lt/link&gt</span>
 						</code></pre>
 				</figure>
 			</div>
@@ -177,11 +208,13 @@
 		<div class="section s-12 starter-code-container">
 			<div class="content-box code h-scroll-menu">
 
+
 				<figure class="comp-code">
 					<pre><code class="code-html" data-lang="html">
-<span class="tag">&ltscript </span><span class="class">src=</span><span class="class-name">"https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"</span><span class="tag">&lt/script&gt</span>
-<span class="tag">&ltscript </span><span class="class">src=</span><span class="class-name">"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"</span><span class="tag">&lt/script&gt</span>
-<span class="tag">&ltscript </span><span class="class">src=</span><span class="class-name">"script.js"</span><span class="tag">&lt/script&gt</span>
+<span class="tag">&ltscript</span><span class="class"> src=</span><span class="class-name">"https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"</span><span class="tag">&gt</span><span class="tag">&lt/script&gt</span>
+<span class="tag">&ltscript</span><span class="class"> src=</span><span class="class-name">"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"</span><span class="tag">&gt</span><span class="tag">&lt/script&gt</span>
+<span class="tag">&ltscript</span><span class="class"> src=</span><span class="class-name">"app.js"</span><span class="tag">&gt</span><span class="tag">&lt/script&gt</span>
+
 						</code></pre>
 				</figure>
 			</div>
@@ -236,8 +269,7 @@
 				</div>
 				<div class="section s-6 vid-container">
 					<div class="content-box">
-						<iframe class="comp-video" src="https://www.youtube.com/embed/0S6pHex-KCo" frameborder="0"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/gshqEsch8eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
@@ -302,18 +334,34 @@
 										class="class-name">"catalog"</span><span class="tag">&gt</span>
       <span class="tag">&ltli</span><span class="class"> class=</span><span
 										class="class-name">"way-item"</span><span class="tag">&gt</span>
-        <span class="tag">&lta</span><span class="class"> class=</span><span class="class-name">"way-link"</span><span class="class"> href=</span><span class="class-name">"#"</span><span class="tag">&gt</span><span class="text">Home</span><span class="tag">&lt/a&gt</span>
+        <span class="tag">&lta</span><span class="class"> class=</span><span
+										class="class-name">"way-link"</span><span class="class"> href=</span><span
+										class="class-name">"#"</span><span class="tag">&gt</span><span class="text">Home</span><span
+										class="tag">&lt/a&gt</span>
       <span class="tag">&lt/li&gt</span>
-      <span class="tag">&ltli</span><span class="class"> class=</span><span class="class-name">"way-item"</span><span class="tag">&gt</span>
-        <span class="tag">&lta</span><span class="class"> class=</span><span class="class-name">"way-link"</span><span class="class"> href=</span><span class="class-name">"#"</span><span class="tag">&gt</span><span class="text">Link</span><span class="tag">&lt/a&gt</span>
+      <span class="tag">&ltli</span><span class="class"> class=</span><span
+										class="class-name">"way-item"</span><span class="tag">&gt</span>
+        <span class="tag">&lta</span><span class="class"> class=</span><span
+										class="class-name">"way-link"</span><span class="class"> href=</span><span
+										class="class-name">"#"</span><span class="tag">&gt</span><span class="text">Link</span><span
+										class="tag">&lt/a&gt</span>
       <span class="tag">&lt/li&gt</span>
-      <span class="tag">&ltli</span><span class="class"> class=</span><span class="class-name">"way-item"</span><span class="tag">&gt</span>
-        <span class="tag">&lta</span><span class="class"> class=</span><span class="class-name">"way-link"</span><span class="class"> href=</span><span class="class-name">"#"</span><span class="tag">&gt</span><span class="text">Link</span><span class="tag">&lt/a&gt</span>
+      <span class="tag">&ltli</span><span class="class"> class=</span><span
+										class="class-name">"way-item"</span><span class="tag">&gt</span>
+        <span class="tag">&lta</span><span class="class"> class=</span><span
+										class="class-name">"way-link"</span><span class="class"> href=</span><span
+										class="class-name">"#"</span><span class="tag">&gt</span><span class="text">Link</span><span
+										class="tag">&lt/a&gt</span>
       <span class="tag">&lt/li&gt</span>
-      <span class="tag">&ltli</span><span class="class"> class=</span><span class="class-name">"way-item"</span><span class="tag">&gt</span>
-        <span class="tag">&lta</span><span class="class"> class=</span><span class="class-name">"way-link"</span><span class="class"> href=</span><span class="class-name">"#"</span><span class="tag">&gt</span><span class="text">About</span><span class="tag">&lt/a&gt</span>
+      <span class="tag">&ltli</span><span class="class"> class=</span><span
+										class="class-name">"way-item"</span><span class="tag">&gt</span>
+        <span class="tag">&lta</span><span class="class"> class=</span><span
+										class="class-name">"way-link"</span><span class="class"> href=</span><span
+										class="class-name">"#"</span><span class="tag">&gt</span><span class="text">About</span><span
+										class="tag">&lt/a&gt</span>
       <span class="tag">&lt/li&gt</span>
-    <span class="tag">&lt/ul&gt<<span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/ul&gt</span>
+  <span class="tag">&lt/div&gt</span>
 <span class="tag">&lt/nav&gt</span>
 								</code></pre>
 						</figure>
@@ -366,8 +414,7 @@
 			</div>
 			<div class="section s-6 vid-container">
 				<div class="content-box">
-					<iframe class="comp-video" src="https://www.youtube.com/embed/0S6pHex-KCo" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/XEzZ6kET194" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -405,9 +452,8 @@
     <span class="tag">&lt;div </span><span class="class">class=</span><span class="class-name">"billboard-content"</span><span class="tag">&gt</span>
       <span class="tag">&lt;h1&gt</span><span class="txt">Title Here</span><span class="tag">&lt;/h1&gt</span>
       <span class="tag">&lt;p</span><span class="tag">&gt</span><span class="txt">Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed 
-          do eiusmod tempor incididunt ut
-          labore et dolore magnaaliqua.</span><span class="tag">&lt;/p&gt</span>
+        consectetur adipiscing
+        elit, sed do eiusmod tempor</span><span class="tag">&lt/p&gt</span>
       <span class="tag">&lt;div </span><span class="class">class=</span><span class="class-name">"button-space"</span><span class="tag">&gt</span>
         <span class="tag">&lt;a </span><span class="class">class=</span><span class="class-name">"button-body"</span><span class="class"> href=</span><span class="class-name">""</span><span class="tag">&gt</span><span class="text">BUTTON</span><span class="tag">&lt;/a&gt</span>
       <span class="tag">&lt;/div&gt</span>
@@ -462,8 +508,7 @@
 			</div>
 			<div class="section s-6 vid-container">
 				<div class="content-box">
-					<iframe class="comp-video" src="https://www.youtube.com/embed/0S6pHex-KCo" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/7r_09dnCIwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -510,6 +555,41 @@
 								</div>
 							</div>
 
+							<div class="slide sixthSlide">
+								<div class="slide-content">
+								  <h1 class="slide-heading">Slide Six</h1>
+								  <p class="slide-caption">Caption</p>
+								</div>
+							  </div>
+						
+							  <div class="slide seventhSlide">
+								<div class="slide-content">
+								  <h1 class="slide-heading">Slide Seven</h1>
+								  <p class="slide-caption">Caption</p>
+								</div>
+							  </div>
+						
+							  <div class="slide eighthSlide">
+								<div class="slide-content">
+								  <h1 class="slide-heading">Slide Eight</h1>
+								  <p class="slide-caption">Caption</p>
+								</div>
+							  </div>
+						
+							  <div class="slide ninthSlide">
+								<div class="slide-content">
+								  <h1 class="slide-heading">Slide Nine</h1>
+								  <p class="slide-caption">Caption</p>
+								</div>
+							  </div>
+						
+							  <div class="slide tenthSlide">
+								<div class="slide-content">
+								  <h1 class="slide-heading">Slide Ten</h1>
+								  <p class="slide-caption">Caption</p>
+								</div>
+							  </div>
+
 						</div>
 
 						<div class="gallery-key">
@@ -518,7 +598,13 @@
 							<span class="key k-three"></span>
 							<span class="key k-four"></span>
 							<span class="key k-five"></span>
-						</div>
+							<span class="key k-six"></span>
+							<span class="key k-seven"></span>
+							<span class="key k-eight"></span>
+							<span class="key k-nine"></span>
+							<span class="key k-ten"></span>
+						  
+						  </div>
 
 
 					</div>
@@ -528,7 +614,7 @@
 
 		<div class="row">
 			<div class="section s-12 code-container">
-				<div class="content-box code h-scroll-menu">
+				<div class="content-box code carousel-code-box h-scroll-menu">
 
 
 					<figure id="carousel-code" class="comp-code">
@@ -536,50 +622,90 @@
 <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"gallery-container"</span><span class="tag">&gt</span>
   <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slides"</span><span class="tag">&gt</span>
 
-	  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide firstSlide"</span><span class="tag">&gt</span>
-	    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
-	      <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide One</span><span class="tag">&lt/h1&gt</span>
-	      <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
-	    <span class="tag">&lt/div&gt</span>
-	  <span class="tag">&lt/div&gt</span>
-
-	  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide secondSlide"</span><span class="tag">&gt</span>
-	    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
-	      <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Two</span><span class="tag">&lt/h1&gt</span>
-	      <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
-	    <span class="tag">&lt/div&gt</span>
-	  <span class="tag">&lt/div&gt</span>
-
-	  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide thirdSlide"</span><span class="tag">&gt</span>
-	    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
-	      <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Three</span><span class="tag">&lt/h1&gt</span>
-	      <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
-	    <span class="tag">&lt/div&gt</span>
-	  <span class="tag">&lt/div&gt</span>
-
-	  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide fourthSlide"</span><span class="tag">&gt</span>
-	    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
-	      <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Four</span><span class="tag">&lt/h1&gt</span>
-	      <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
-	    <span class="tag">&lt/div&gt</span>
-	  <span class="tag">&lt/div&gt</span>
-    
-	  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide fifthSlide"</span><span class="tag">&gt</span>
-	    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
-	      <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Five</span><span class="tag">&lt/h1&gt</span>
-	      <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
-	    <span class="tag">&lt/div&gt</span>
-	  <span class="tag">&lt/div&gt</span>
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide firstSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide One</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
       <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
 
-	<span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"gallery-key"</span><span class="tag">&gt</span>
-	  <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-one"</span><span class="tag">&gt</span>
-	  <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-two"</span><span class="tag">&lt/span&gt</span>
-	  <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-three"</span><span class="tag">&lt/span&gt</span>
-	  <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-four"</span><span class="tag">&lt/span&gt</span>
-	  <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-five"</span><span class="tag">&lt/span&gt</span>
-	  <span class="tag">&lt/span&gt</span>
-	<span class="tag">&lt/div&gt</span>
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide secondSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Two</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide thirdSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Three</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide fourthSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Four</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide fifthSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Five</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide sixthSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Six</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide seventhSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Seven</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide eighthSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Eight</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide ninthSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Nine</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide tenthSlide"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"slide-content"</span><span class="tag">&gt</span>
+        <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"slide-heading"</span><span class="tag">&gt</span><span class="text">Slide Ten</span><span class="tag">&lt/h1&gt</span>
+        <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"slide-caption"</span><span class="tag">&gt</span><span class="text">Caption</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&lt/div&gt</span>
+    <span class="tag">&lt/div&gt</span>
+  <span class="tag">&lt/div&gt</span>
+
+  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"gallery-key"</span><span class="tag">&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-one"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-two"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-three"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-four"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-five"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-six"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-seven"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-eight"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-nine"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+    <span class="tag">&ltspan</span><span class="class"> class=</span><span class="class-name">"key k-ten"</span><span class="tag">&gt</span><span class="tag">&lt/span&gt</span>
+
+	<!-- <span class="tag">&lt/span&gt</span> -->
   <span class="tag">&lt/div&gt</span>
 <span class="tag">&lt/div&gt</span>
 							</code></pre>
@@ -634,7 +760,7 @@
 			</div>
 			<div class="section s-6 vid-container">
 				<div class="content-box">
-					<video src="gridsystem.mov" class="comp-video"></video>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/uIOGp_ROkpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -689,7 +815,7 @@
 		</div>
 
 		<div class="row">
-			<div class="section s-12 grid-code-container code-container">
+			<div class="section s-12 grid-code-container grid-code-box code-container">
 				<div class="content-box code h-scroll-menu">
 
 
@@ -720,7 +846,7 @@
     <span class="tag">&lt/div&gt</span>
     <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"section s-7"</span><span class="tag">&gt</span>
       <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"content-box"</span><span class="tag">&gt</span><span class="tag">&lt/div&gt</span>
-    <span class="tag">&l  </span>
+    <span class="tag">&lt/div&gt</span>
   <span class="tag">&lt/div&gt</span>
 <span class="tag">&lt/div&gt</span>
 							</code></pre>
@@ -839,52 +965,71 @@
 
 					<figure id="cards-code" class="comp-code">
 						<pre><code class="code-html" data-lang="html">
-<span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card-deck"</span><span class="tag">&gt</span>
-  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card"</span><span class="tag">&gt</span>
+<span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card-deck"</span><span class="tag">&gt</span>
+  <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card"</span><span class="tag">&gt</span>
 
-    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card-image"</span><span class="tag">&gt&lt/div&gt</span>
-    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card-content"</span><span class="tag">&gt</span>
-      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card-heading"</span><span class="tag">&gt</span>
-        <span class="tag">&lth2&gt</span><span class="text">Card Title 1</span><span class="tag">&lt/h2&gt</span>
-        <span class="tag">&lth3&gt</span><span class="text">Card Subtitle</span><span class="tag">&lt/h3&gt</span>
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card-image"</span><span class="tag">&gt&lt/div&gt</span>
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card-content"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card-heading"</span><span class="tag">&gt</span>
+        <span class="tag">&lth2&gt</span><span class="text">Card Title 1</span><span
+									class="tag">&lt/h2&gt</span>
+        <span class="tag">&lth3&gt</span><span class="text">Card Subtitle</span><span
+									class="tag">&lt/h3&gt</span>
       <span class="tag">&lt/div&gt</span>
-      <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"card-pg"</span><span class="tag">&gt</span><span class="text">Lorem ipsum dolor
-	  sit amet, consectetur adipiscing elit,
-	  sed do eiusmod tempor incididunt ut labore et dolore magna
-	  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-	  ullamco laboris nisi ut aliquip ex ea commodo consequat</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&ltp</span><span class="class"> class=</span><span
+									class="class-name">"card-pg"</span><span class="tag">&gt</span><span class="text">Lorem ipsum dolor
+	sit amet, consectetur adipiscing elit,
+	sed do eiusmod tempor incididunt ut labore et dolore magna
+	aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+	ullamco laboris nisi ut aliquip ex ea commodo consequat</span><span class="tag">&lt/p&gt</span>
+    <span class="tag">&lt/div&gt</span>
+  <span class="tag">&lt/div&gt</span>
+  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card card-shadow"</span><span class="tag">&gt</span>
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">card-image</span><span class="tag">&gt&lt/div&gt</span>
+
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card-content"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card-heading"</span><span class="tag">&gt</span>
+        <span class="tag">&lth2&gt</span><span class="text">Card Title 2</span><span
+									class="tag">&lt/h2&gt</span>
+        <span class="tag">&lth3&gt</span><span class="text">Card Subtitle</span><span
+									class="tag">&lt/h3&gt</span>
+      <span class="tag">&lt/div&gt</span>
+      <span class="tag">&ltp</span><span class="class"> class=</span><span
+									class="class-name">"card-pg"</span><span class="tag">&gt</span><span class="text">Lorem ipsum dolor
+	sit amet, consectetur adipiscing elit,
+	sed do eiusmod tempor incididunt ut labore et dolore magna
+	aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+	ullamco laboris nisi ut aliquip ex ea commodo consequat</span><span class="tag">&lt/p&gt</span>
     <span class="tag">&lt/div&gt</span>
   <span class="tag">&lt/div&gt</span>
 
   <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card card-shadow"</span><span class="tag">&gt</span>
-    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">card-image</span><span class="tag">&gt&lt/div&gt</span>
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">card-image</span><span class="tag">&gt&lt/div&gt</span>
 
-    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card-content"</span><span class="tag">&gt</span>
-      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card-heading"</span><span class="tag">&gt</span>
-        <span class="tag">&lth2&gt</span><span class="text">Card Title 2</span><span class="tag">&lt/h2&gt</span>
-        <span class="tag">&lth3&gt</span><span class="text">Card Subtitle</span><span class="tag">&lt/h3&gt</span>
+    <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card-content"</span><span class="tag">&gt</span>
+      <span class="tag">&ltdiv</span><span class="class"> class=</span><span
+									class="class-name">"card-heading"</span><span class="tag">&gt</span>
+        <span class="tag">&lth2&gt</span><span class="text">Card Title 3</span><span
+									class="tag">&lt/h2&gt</span>
+        <span class="tag">&lth3&gt</span><span class="text">Card Subtitle</span><span
+									class="tag">&lt/h3&gt</span>
       <span class="tag">&lt/div&gt</span>
-      <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"card-pg"</span><span class="tag">&gt</span><span class="text">Lorem ipsum dolor
-	  sit amet, consectetur adipiscing elit,
-	  sed do eiusmod tempor incididunt ut labore et dolore magna
-	  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-	  ullamco laboris nisi ut aliquip ex ea commodo consequat</span><span class="tag">&lt/p&gt</span>
-    <span class="tag">&lt/div&gt</span>
-  <span class="tag">&lt/div&gt</span>
-
-  <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card card-shadow"</span><span class="tag">&gt</span>
-    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">card-image</span><span class="tag">&gt&lt/div&gt</span>
-
-    <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card-content"</span><span class="tag">&gt</span>
-      <span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"card-heading"</span><span class="tag">&gt</span>
-        <span class="tag">&lth2&gt</span><span class="text">Card Title 3</span><span class="tag">&lt/h2&gt</span>
-        <span class="tag">&lth3&gt</span><span class="text">Card Subtitle</span><span class="tag">&lt/h3&gt</span>
-      <span class="tag">&lt/div&gt</span>
-      <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"card-pg"</span><span class="tag">&gt</span><span class="text">Lorem ipsum dolor
-	  sit amet, consectetur adipiscing elit,
-	  sed do eiusmod tempor incididunt ut labore et dolore magna
-	  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-	  ullamco laboris nisi ut aliquip ex ea commodo consequat</span><span class="tag">&lt/p&gt</span>
+      <span class="tag">&ltp</span><span class="class"> class=</span><span
+									class="class-name">"card-pg"</span><span class="tag">&gt</span><span class="text">Lorem ipsum dolor
+	sit amet, consectetur adipiscing elit,
+	sed do eiusmod tempor incididunt ut labore et dolore magna
+	aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+	ullamco laboris nisi ut aliquip ex ea commodo consequat</span><span class="tag">&lt/p&gt</span>
     <span class="tag">&lt/div&gt</span>
   <span class="tag">&lt/div&gt</span>
 <span class="tag">&lt/div&gt</span>
@@ -935,8 +1080,7 @@
 			</div>
 			<div class="section s-6 vid-container">
 				<div class="content-box">
-					<iframe class="comp-video" src="https://www.youtube.com/embed/0S6pHex-KCo" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/9rthUsu16eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -952,7 +1096,7 @@
 
 			<!-- Background-img Code -->
 			<div class="section s-6 sm-code-container">
-				<div class="content-box sm-code h-scroll-menu">
+				<div class="content-box bgimg-code-box sm-code h-scroll-menu">
 
 
 					<figure id="bg-img-code" class="comp-code">
@@ -1035,9 +1179,10 @@
   <span class="tag">&lth1</span><span class="class"> class=</span><span class="class-name">"h-md txt-center txt-black all-upper"</span><span class="tag">&gt</span><span class="text">Heading</span><span class="tag">&lt/h1&gt</span>
   <span class="tag">&ltbr&gt</span>
   <span class="tag">&ltp</span><span class="class"> class=</span><span class="class-name">"txt-sm txt-center txt-black"</span><span class="tag">&gt</span><span class="text">
-	Lorem ipsum dolor sit amet, consectetur
-	adipiscing elit, sed do eiusmod tempor
-	incididunt ut labore et dolore </span><span class="tag">&lt/p&gt</span>
+  Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua.
+  ex ea commodo consequat.</span><span class="tag">&lt/p&gt</span>
 <span class="tag">&lt/div&gt</span>
 							</code></pre>
 					</figure>
@@ -1088,8 +1233,7 @@
 			</div>
 			<div class="section s-6 vid-container">
 				<div class="content-box">
-					<iframe class="comp-video" src="https://www.youtube.com/embed/0S6pHex-KCo" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/PFwSAGy8mcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -1114,8 +1258,8 @@
 
 				<figure id="buttons-code" class="comp-code">
 					<pre><code class="code-html" data-lang="html">
-<span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"button-space"</span><span class="tag">&gt</span>
-  <span class="tag">&lta</span><span class="class"> class=</span><span class="class-name">"button body full"</span><span class="class"> href=</span><span class="class-name">"#"</span><span class="tag">&gt</span><span class="text">BUTTON</span><span class="tag">&lt/a&gt</span>
+<span class="tag">&ltdiv</span><span class="class"> class=</span><span class="class-name">"btn-1"</span><span class="tag">&gt</span>
+  <span class="tag">&lta</span><span class="class"> class=</span><span class="class-name">"button button-body button-body-homepg-1"</span><span class="class"> href=</span><span class="class-name">"#"</span><span class="tag">&gt</span><span class="text">BUTTON</span><span class="tag">&lt/a&gt</span>
 <span class="tag">&lt/div&gt</span>
 						</code></pre>
 				</figure>
@@ -1166,8 +1310,7 @@
 			</div>
 			<div class="section s-6 vid-container">
 				<div class="content-box">
-					<iframe class="comp-video" src="https://www.youtube.com/embed/0S6pHex-KCo" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/qxTF4nLzVoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -1429,9 +1572,7 @@
 	</div>
 
 
-	<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="script.js"></script>
-</body>
+	<hr>
 
+</body>
 </html>
